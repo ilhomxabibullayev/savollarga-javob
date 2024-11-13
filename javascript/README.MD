@@ -1,4 +1,4 @@
-what is javascript?
+What is javascript?
 
 JavaScript — bu interaktiv veb-saytlar va veb-ilovalar yaratish uchun ishlatiladigan yuqori darajadagi dasturlash tili. U asosan brauzerda ishlaydi, lekin server tomonda ham ishlatilishi mumkin (masalan, Node.js orqali). JavaScript yordamida veb-sahifalarda dinamik o'zgarishlar, foydalanuvchi bilan interaktiv aloqalar, ma'lumotlar yuborish va olish (AJAX), animatsiyalar yaratish va boshqa ko'plab funksiyalarni amalga oshirish mumkin.
 
