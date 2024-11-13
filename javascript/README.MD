@@ -4,7 +4,6 @@ JavaScript — bu interaktiv veb-saytlar va veb-ilovalar yaratish uchun ishlatil
 
 1. What are the different data types present in javascript?
 
-
 JavaScript'da mavjud bo'lgan turli xil ma'lumot turlari (data types) quyidagilar:
 
 Primitive (Oddiy) ma'lumot turlari:
@@ -65,7 +64,6 @@ let — bu zamonaviy va xavfsiz usul, var esa eski va ko'proq kutilmagan xulq-at
 
 6. Explain Implicit Type Coercion in javascript.
 
-
 Implicit Type Coercion (yoki Avtomatik tur o'zgartirish) — bu JavaScriptning xususiyatidir, ya'ni JavaScript avtomatik ravishda bir turdagi qiymatni boshqa turdagi qiymatga o'zgartiradi. Bu o'zgarishlar dastur bajarilishi davomida amalga oshadi, va foydalanuvchi buni bevosita ko'rmaydi.
 
 Implicit Type Coercion — JavaScriptning qulay xususiyatlaridan biri bo'lsa-da, uni ehtiyotkorlik bilan ishlatish kerak. Kutilmagan turdagi o'zgartirishlar va xatoliklarni oldini olish uchun, imkon qadar === operatorini va aniq tur o'zgartirishni (explicit coercion) ishlatish tavsiya etiladi.
@@ -78,7 +76,6 @@ JavaScript — dinamik tiplash (dynamically typed) tili. Bu uning foydalanuvchil
 
 Statik tiplash tili o'zgaruvchilarni turini oldindan belgilashni talab qiladi, bu esa kodni optimallashtirish va xatoliklarni kamaytirishda yordam beradi.
 
-
 Shu bilan birga, TypeScript (JavaScriptning tip bilan ishlaydigan ustuvor versiyasi) JavaScriptga tiplarni qo'shish imkoniyatini beradi, bu esa JavaScriptdagi dinamik tiplashni statik tiplashga o'zgartirishga imkon beradi.
 
 9. Explain passed by value and passed by reference.
@@ -90,7 +87,6 @@ Passed by value (qiymat bo'yicha uzatish) — bu primitive turlarda ishlatiladi,
 Passed by reference (manzil bo'yicha uzatish) — bu obyektlar va massivlar uchun amal qiladi, va ular funktsiyaga uzatilganda, asl manzilga havola uzatiladi, shuning uchun o'zgarishlar asl ma'lumotga ta'sir qiladi.
 
 10. What is an Immediately Invoked Function in JavaScript?
-
 
 Immediately Invoked Function Expression (IIFE) — bu JavaScript'da funksiyaning o'zini darhol chaqiradigan ifodasi. IIFE yordamida funksiya e'lon qilinadi va darhol bajariladi. Bu usul asosan o'zgaruvchilarni lokal doirada (local scope) saqlash va global doiraga kirmaslik uchun ishlatiladi.
 
@@ -112,7 +108,6 @@ Agar siz JavaScriptni aniqroq va xavfsizroq ishlatishni xohlasangiz, strict mode
 
 12. Explain Higher Order Functions in javascript.
 
-
 Higher-Order Functions (yuqori darajali funksiyalar) — bu JavaScriptdagi juda muhim va kuchli kontseptlardan biri bo'lib, ularning asosiy xususiyati shundaki, ular boshqa funksiyalarni argument sifatida qabul qilishlari yoki funksiya qaytarishlari mumkin.
 
 Higher-Order Functions — bu funksiyalar bo'lib, ular boshqa funksiyalarni argument sifatida qabul qilishlari yoki funksiya sifatida qaytarishlari mumkin.
@@ -122,7 +117,6 @@ Bu kontsept JavaScriptni yanada qudratli va moslashuvchan qilishga yordam beradi
 map(), filter(), reduce(), forEach() kabi metodlar yuqori darajali funksiyalar sifatida ishlaydi va JavaScriptdagi massivlar bilan ishlashni osonlashtiradi.
 
 13. Explain “this” keyword.
-
 
 JavaScript'da this kalit so'zi — bu juda muhim tushuncha bo'lib, u hozirgi kontekstdagi yoki hozirgi funksiyada ishlatiladigan obyektni anglatadi. Asosan, this o'zgaruvchisi, funktsiya chaqirilayotgan joyga va qanday chaqirilishiga qarab farq qiladi. U ko'pincha funksiya yoki metodlarning kontekstini aniqlashda ishlatiladi.
 
@@ -141,7 +135,6 @@ call(), apply(), bind() metodlari yordamida thisni qo'lda o'zgartirish mumkin.
 this kalit so'zi JavaScriptning eng muhim tushunchalaridan biri bo'lib, uning qanday ishlashini to'liq tushunish dasturchilar uchun juda muhimdir.
 
 14. What do you mean by Self Invoking Functions?
-
 
 Self-Invoking Functions (o'z-o'zini chaqiradigan funksiyalar) — bu JavaScript'da funksiyaning o'zini darhol chaqiradigan xususiyatga ega bo'lgan funksiya turi. Bu funksiyalar, e'lon qilingandan so'ng, darhol bajariladi va hech qanday tashqi chaqiriqni kutmaydi.
 
