@@ -101,3 +101,42 @@ Ifodalarni shartli ko'rsatish uchun JS da mavjud bo'lgan if yoki uchlik ifodalar
 
 Kalit - bu ma'lumotlarni ko'rsatish uchun massivlar ustida xaritalashda qo'shishingiz kerak bo'lgan maxsus atribut. Kalit tayanch Reactga qaysi elementlar o‘zgargan, qo‘shilgan yoki o‘chirilganligini aniqlashga yordam beradi.
 
+16. Virtual DOM nima?
+
+Virtual DOM (VDOM) Real DOM ning xotiradagi tasviridir . UI ko'rinishi xotirada saqlanadi va "haqiqiy" DOM ​​bilan sinxronlashtiriladi. Bu chaqirilayotgan render funktsiyasi va elementlarning ekranda ko'rsatilishi o'rtasida sodir bo'ladigan bosqich. Bu butun jarayon yarashuv deb ataladi .
+
+17. Virtual DOM qanday ishlaydi?
+
+Virtual DOM uchta oddiy bosqichda ishlaydi.
+
+Har qanday asosiy ma'lumotlar o'zgarganda, butun UI Virtual DOM ko'rinishida qayta ko'rsatiladi.
+
+Keyin oldingi DOM vakili va yangisi o'rtasidagi farq hisoblab chiqiladi.
+
+Hisob-kitoblar amalga oshirilgandan so'ng, haqiqiy DOM faqat haqiqatda o'zgargan narsalar bilan yangilanadi.
+
+18. Shadow DOM va Virtual DOM o'rtasidagi farq nima?
+
+Shadow DOM brauzer texnologiyasi bo'lib, asosan veb-komponentlardagi o'zgaruvchilar va CSS-ni aniqlash uchun mo'ljallangan . Virtual DOM - bu JavaScript-dagi kutubxonalar tomonidan brauzer API-lari ustida amalga oshirilgan kontseptsiya.
+
+19. React Fiber nima?
+
+Elyaf - bu yangi yarashtiruvchi vosita yoki React v16 da asosiy algoritmni qayta tiklash. React Fiber-ning maqsadi - animatsiya, tartib, imo-ishoralar, ishni to'xtatib turish, to'xtatish yoki qayta ishlatish va har xil turdagi yangilanishlarga ustuvorlik berish kabi sohalarga mosligini oshirish; va yangi parallellik primitivlari.
+
+20. React Fiber-ning asosiy maqsadi nima?
+
+React Fiber -ning maqsadi animatsiya, tartib va ​​imo-ishoralar kabi sohalarga mosligini oshirishdir. Uning sarlavhali xususiyati - bosqichma-bosqich ko'rsatish : ko'rsatish ishini bo'laklarga bo'lish va uni bir nechta ramkalarga tarqatish qobiliyati.
+
+hujjatlardan
+
+Uning asosiy maqsadlari quyidagilardan iborat:
+
+Uzluksiz ishni bo'laklarga bo'lish qobiliyati.
+
+Amaldagi ishlarni ustuvorlashtirish, qayta asoslash va qayta ishlatish qobiliyati.
+
+React-da tartibni qo'llab-quvvatlash uchun ota-onalar va bolalar o'rtasida oldinga va orqaga kelish qobiliyati.
+
+render() dan bir nechta elementlarni qaytarish imkoniyati.
+Xato chegaralarini yaxshiroq qo'llab-quvvatlash.
+
